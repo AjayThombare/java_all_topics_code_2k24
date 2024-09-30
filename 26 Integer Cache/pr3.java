@@ -1,0 +1,16 @@
+class P3{
+	public static void main(String [] args){
+		int x = 100;
+		int y = 110;
+		int z = 100;
+		int a = 128;   // Different address because out of range of integer cache
+		int b = 128;   // Same ^
+		System.out.println(System.identityHashCode(x));
+		System.out.println(System.identityHashCode(y));
+		System.out.println(System.identityHashCode(z));
+		System.out.println(System.identityHashCode(a));
+		System.out.println(System.identityHashCode(b));
+	}
+}
+
+
