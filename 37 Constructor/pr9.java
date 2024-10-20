@@ -1,0 +1,6 @@
+protected class Demo{
+	Demo(){
+
+	}
+}
+
