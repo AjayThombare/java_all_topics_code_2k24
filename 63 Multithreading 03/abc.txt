@@ -1,0 +1,4 @@
+Exception in thread "main" Exception in thread "Thread-0" java.lang.ArithmeticException: / by zero
+	at Client12.main(Program12.java:11)
+java.lang.ArithmeticException: / by zero
+	at ThreadExcep.run(Program12.java:4)
